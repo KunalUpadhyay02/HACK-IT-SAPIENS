@@ -11,7 +11,7 @@ html {
     user-select: none;
     -o-user-select: none;
     margin: auto;
-    background: #050c19
+    background: #050c19;
 }
 
 #__layout ::-webkit-scrollbar,
@@ -74,7 +74,7 @@ body {
 .outer-container[data-v-31f7353b] {
     width: 100vw;
     min-height: 100vh;
-    background: #050c19;
+    background: #050c19;          
     padding: .5px 5rem 2rem;
     max-width: 1440px
 }
@@ -98,7 +98,7 @@ body {
     border-radius: 32px;
     margin-top: 1rem;
     min-height: 85vh;
-    background-image: url(Hackitsapiens.tech/_nuxt/img/background.645f53c.png);
+    background-image: url(Hackitsapiens.tech/flop/img/background.645f53c.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -134,7 +134,7 @@ body {
     height: 65px;
     padding: 12px 18px;
     background: #0f1726;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, .25), inset 1px 1px 1px hsla(0, 0%, 100%, .1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25), inset 1px 1px 1px hsla(0, 0%, 100%, .1);    
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     min-width: 8.25rem;
@@ -161,8 +161,8 @@ body {
 .nav-desktop[data-v-4dde2250] {
     display: flex;
     align-items: center;
-    background: #0f1726;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, .25), inset 1px 1px 1px hsla(0, 0%, 100%, .1);
+    background: #0f1726;     
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25), inset 1px 1px 1px hsla(0, 0%, 100%, .1);  
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     border-radius: 11px;
@@ -1517,10 +1517,7 @@ img[data-v-0414cb43] {
         padding: 30px 1rem
     }
 }
-/* </style>
-<link rel="preload" href="/_nuxt/static/1673355682/payload.js" as="script">
-<link rel="preload" href="/_nuxt/static/1673355682/manifest.js" as="script">
-<style> */
+
 @-webkit-keyframes animation-e402wp {
     0% {
         -webkit-transform: rotate(0);
@@ -2229,7 +2226,7 @@ textarea::placeholder {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    background: linear-gradient(180deg, #050c19 53.65%, rgba(5, 12, 25, 0) 100%);
+    background: linear-gradient(180deg, #050c19 53.65%, rgba(5, 12, 25, 0) 100%);  
     z-index: 100000;
     padding-top: 2rem;
     position: -webkit-sticky;
@@ -2941,8 +2938,8 @@ textarea::placeholder {
 }
 
 .css-1qgrcsh {
-    grid-column: span 2/span 2;
-    grid-column-start: 1;
+    grid-column: span 1/span 1;
+    grid-column-start: 2;
     grid-row-start: 3;
     -webkit-padding-start: 1rem;
     padding-inline-start: 1rem;
@@ -2969,6 +2966,37 @@ textarea::placeholder {
         grid-row-start: 2
     }
 }
+
+.css-cvivx {
+    grid-column: span 1/span 1;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    -webkit-padding-start: 1rem;
+    padding-inline-start: 1rem;
+    -webkit-padding-end: 1rem;
+    padding-inline-end: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+@media screen and (min-width:30em) {
+    .css-cvivx {
+        -webkit-padding-start: 30px;
+        padding-inline-start: 30px;
+        -webkit-padding-end: 30px;
+        padding-inline-end: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+}
+
+@media screen and (min-width:62em) {
+    .css-cvivx {
+        grid-column-start: 3;
+        grid-row-start: 2
+    }
+}
+
 
 .css-umdsoa {
     grid-column: span 1/span 1;
