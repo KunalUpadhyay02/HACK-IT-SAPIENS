@@ -11,7 +11,7 @@ html {
     user-select: none;
     -o-user-select: none;
     margin: auto;
-    background: #050c19;
+    background: #6721b7;
 }
 
 #__layout ::-webkit-scrollbar,
@@ -74,7 +74,7 @@ body {
 .outer-container[data-v-31f7353b] {
     width: 100vw;
     min-height: 100vh;
-    background: #050c19;          
+    background: #390D6A;          
     padding: .5px 5rem 2rem;
     max-width: 1440px
 }
@@ -2226,7 +2226,7 @@ textarea::placeholder {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    background: linear-gradient(180deg, #050c19 53.65%, rgba(5, 12, 25, 0) 100%);  
+    background: linear-gradient(180deg, #6721b7 53.65%, rgba(5, 12, 25, 0) 100%);  
     z-index: 100000;
     padding-top: 2rem;
     position: -webkit-sticky;
